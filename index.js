@@ -1,11 +1,3 @@
-// Carne: 400gr por pessoa   +6 horas: 650gr
-// Cerveja: 1200ml por adulto +6 horas: 2000ml
-// Refrigerante/agua: 1000ml por pessoa +6 horas: 1500ml
-
-
-
-
-
 
 function calcularPorcoes(qtdAdultos, qtdCriancas,duracao) {
 
@@ -16,7 +8,7 @@ function calcularPorcoes(qtdAdultos, qtdCriancas,duracao) {
         churrasco[1] = 1200 * qtdAdultos;
         churrasco[2] = 1000 * qtdAdultos + 500 * qtdCriancas;
     } else {
-        churrasco[0] = 650 * qtdAdultos + 375 * qtdCriancas;
+        churrasco[0] = 650 * qtdAdultos + 325 * qtdCriancas;
         churrasco[1] = 2000 * qtdAdultos;
         churrasco[2] = 1500 * qtdAdultos +  750 * qtdCriancas;
     }
